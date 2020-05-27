@@ -205,7 +205,6 @@
     font-weight: 500;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
 
-
 }
 
 .container-box .box:hover:nth-child(2) .content a {
@@ -535,13 +534,18 @@ ul.social-buttons li a:hover {
    margin-top: 0px;
    font-size: 28px;
 }
-.back-1{
 
+.galeria a{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #9006EE;
+    border-radius: 4px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
 }
-.back-2{
 
-}
-.back-3{
 
-}
-  
+
