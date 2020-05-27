@@ -461,7 +461,7 @@ ul.social-buttons li a:hover {
   .card-restaurante-stats {
     grid-area: stats; 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -494,13 +494,31 @@ ul.social-buttons li a:hover {
 
 
 
-  .card-restaurante-image {
+  .card-restaurante-image-1{
     grid-area: image;
-    background: url('../img/split-screen/restaurante.jpg');
+    background: url('../img/restaurantes/jaccquin.jpeg');
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
   }
+
+  .card-restaurante-image-2{
+    grid-area: image;
+    background: url('../img/restaurantes/paola.jpeg');
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+
+  .card-restaurante-image-3{
+    grid-area: image;
+    background: url('../img/restaurantes/fogaca.jpg');
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+
+  
 
   .localidade{
       color: rgb(144, 6, 238);
@@ -517,10 +535,13 @@ ul.social-buttons li a:hover {
    margin-top: 0px;
    font-size: 28px;
 }
+.back-1{
 
-.card-restaurante:hover{
-    transform: scale(1.03);
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+.back-2{
+
+}
+.back-3{
 
 }
   
