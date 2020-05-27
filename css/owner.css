@@ -424,3 +424,103 @@ ul.social-buttons li a:hover {
     
 }
 
+.section-restaurante{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #131313;
+    overflow: hidden;
+}
+
+.card-restaurante {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+  
+    
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    font-family: roboto;
+    text-align: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin: 10px;
+  }
+
+  .card-restaurante-image {
+    grid-area: image;
+  }
+  .card-restaurante-text {
+    grid-area: text;
+    margin: 25px;
+  }
+  .card-restaurante-stats {
+    grid-area: stats; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(144, 6, 238);
+  }
+
+  .card-restaurante-stats .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+    
+  }
+  
+
+  .card-restaurante-stats .type {
+    font-size: 11px;
+    font-weight: 300;
+    text-transform: uppercase;
+
+  }
+
+  .card-restaurante-stats .value {
+
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+
+
+  .card-restaurante-image {
+    grid-area: image;
+    background: url('../img/split-screen/restaurante.jpg');
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+  }
+
+  .localidade{
+      color: rgb(144, 6, 238);
+      font-size: 13px;
+  }
+
+  .card-restaurante-text p{
+      color: grey;
+      font-size: 15px;
+      font-weight: 300;
+  }
+
+  .card-restaurante-text h2{
+   margin-top: 0px;
+   font-size: 28px;
+}
+
+.card-restaurante:hover{
+    transform: scale(1.03);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+
+}
+  
