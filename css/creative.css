@@ -6027,7 +6027,7 @@ a.close.disabled {
   text-align: center;
   opacity: 0.5;
   transition: opacity 0.15s ease;
-  float: ;
+  
 }
 
 @media (prefers-reduced-motion: reduce) {
