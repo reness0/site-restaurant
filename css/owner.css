@@ -379,6 +379,8 @@ ul.social-buttons li a:hover {
     font-weight: 600;
     letter-spacing: 1px;
     color: #fff;
+    margin-left: 20px;
+    
 }
 
 
@@ -548,9 +550,9 @@ ul.social-buttons li a:hover {
 }
 
 .section-cardapio{
-    /* padding: 0;
+    padding: 0;
     margin: 0;
-    box-sizing: border-box; */
+    box-sizing: border-box;
     position: relative;
     widows: 100%;
     min-height: 100vh;
@@ -569,9 +571,7 @@ ul.social-buttons li a:hover {
     width: 100%;
     height: 100%;
     background: #9006EE;
-    clip-path: polygon(47% 0, 100% 0, 100% 100%, 85% 100%);
-
-}
+    clip-path: polygon(46% 0, 100% 0%, 100% 100%, 100% 82%);}
     
 
 .cardapio-content{
@@ -584,6 +584,7 @@ ul.social-buttons li a:hover {
     color: #fff;
     font-size: 3em;
     font-weight: 800;
+    margin-bottom: 50px;
 
 }
 
@@ -593,7 +594,7 @@ ul.social-buttons li a:hover {
 
 }
 
-.cardapio-content a{
+.cardapio-content .botao{
     position: relative;
     display: inline-block;
     padding: 15px 30px;
@@ -610,11 +611,14 @@ ul.social-buttons li a:hover {
     position: relative;
     padding-right: 100px;
 
+
 }
 
  .imgBx img{
     max-width: 700px;
     margin-left: 60px;
+    margin-bottom: 100px;
+
 
 }
 
