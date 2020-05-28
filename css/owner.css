@@ -547,5 +547,76 @@ ul.social-buttons li a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
 }
 
+.section-cardapio{
+    /* padding: 0;
+    margin: 0;
+    box-sizing: border-box; */
+    position: relative;
+    widows: 100%;
+    min-height: 100vh;
+    background: #131313;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.section-cardapio:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #9006EE;
+    clip-path: polygon(47% 0, 100% 0, 100% 100%, 85% 100%);
+
+}
+    
+
+.cardapio-content{
+    position: relative;
+    padding: 100px 50px 100px 150px;
+    box-sizing: border-box;
+}
+
+.cardapio-content h2{
+    color: #fff;
+    font-size: 3em;
+    font-weight: 800;
+
+}
+
+.cardapio-content p{
+    color: #fff;
+    font-size: 1.2em;
+
+}
+
+.cardapio-content a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background: #9006EE;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.95em;
+    font-weight: 700;
+}
+
+ .imgBx{
+    position: relative;
+    padding-right: 100px;
+
+}
+
+ .imgBx img{
+    max-width: 700px;
+    margin-left: 60px;
+
+}
+
 
 
