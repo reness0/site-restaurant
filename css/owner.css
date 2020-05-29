@@ -187,6 +187,7 @@
 .container-box .box:nth-child(2) .content a {
     text-decoration: none;
     color: #FF00FF;
+    
 }
 
 .container-box .box:nth-child(3) .content a {
@@ -199,7 +200,6 @@
     padding: 10px 20px;
     background: #fff;
     border-radius: 4px;
-    margin-top: 20px;
     text-decoration: none;
     color: #1c1c1c;
     font-weight: 500;
@@ -209,10 +209,9 @@
 
 .container-box .box:hover:nth-child(2) .content a {
     display: inline-block;
-    padding: 10px 20px;
     background: #fff;
+    padding: 10px 20px;
     border-radius: 4px;
-    margin-top: 20px;
     text-decoration: none;
     color: #FF00FF;
     font-weight: 500;
@@ -224,7 +223,6 @@
     padding: 10px 20px;
     background: #fff;
     border-radius: 4px;
-    margin-top: 20px;
     text-decoration: none;
     color: #9006EE;
     font-weight: 500;
@@ -553,6 +551,7 @@ ul.social-buttons li a:hover {
     font-weight: 500;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
 }
+
 
 .section-cardapio{
     padding: 0;
