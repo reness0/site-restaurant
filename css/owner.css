@@ -445,10 +445,10 @@ ul.social-buttons li a:hover {
     box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
     font-family: roboto;
     text-align: center;
-    transition: 0.5s ease;
+    transition: 0.2s ease;
     cursor: pointer;
     margin: 10px;
-    transition: 0.5s ease;
+    transition: 0.2s ease;
   }
 
   .card-restaurante:hover{
@@ -623,6 +623,60 @@ ul.social-buttons li a:hover {
     margin-left: 60px;
     margin-bottom: 100px;
 
+
+}
+
+.page-section-dev {
+    padding: 100px 0;
+  }
+  
+
+.section-desenvolvedores{
+    display: flex;
+}
+
+@media only screen and (max-device-width: 900px)
+{
+    .page-section-dev{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-device-width: 900px)
+{
+    .split-section{
+        display: none;
+    }
+}
+
+@media only screen and (max-device-width: 900px)
+{
+
+    .section-restaurante{
+        display: block;
+        justify-content: center;
+        height: 900px;
+    }
+
+    .card-restaurante{
+        display: block;
+        grid-template-columns: 80%;
+        grid-template-areas: "image" "text" "stats";
+        margin-bottom: 1px;
+    }
+
+    .container-box{
+        display: block;
+        justify-content: center;
+        left: 50%;
+        right: 50%;
+    }
+
+   
+
+    
+    
 
 }
 
