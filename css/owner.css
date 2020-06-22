@@ -662,7 +662,7 @@ ul.social-buttons li a:hover {
    display: block;
    justify-content: block;
    align-items: center;
-   background: #131313;
+   background: #fff;
    
 }
 
@@ -740,37 +740,30 @@ ul.social-buttons li a:hover {
     box-shadow: 0 0 0 0.2rem rgba(51, 51, 51, 0.5);
   }
 
-  .dev-content{
-      display: block;
-      margin-right: 30px;
-  }
-  
 
   .dev-content h2{
       text-transform: uppercase;
       font-weight: 1000;
+      font-size: 40px;
       color: #9006EE;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       margin-bottom: 30px; 
-      text-align: center;
   }
 
   .dev-content h4{
       font-weight: 100;
+      font-size: 20px;
       color: #fff;
-      text-align: center;
   }
 
   .dev-content btn{
       margin-top: 30px;
-      text-align: center;
-      justify-content: center;
-      align-items: center;
   }
 
   .dev-content{
     display: block;
     margin-right: 30px;
+
 }
 .dev-content:before{
   content: '';
@@ -799,7 +792,7 @@ ul.social-buttons li a:hover {
 
 .dev-content-mobile h4{
     font-weight: 100;
-    color: #fff;
+    color: #131313;
 }
 
 .dev-content-mobile btn{
