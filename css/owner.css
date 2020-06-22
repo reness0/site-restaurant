@@ -635,7 +635,7 @@ ul.social-buttons li a:hover {
     display: flex;
 }
 
-@media only screen and (max-device-width: 900px)
+@media only screen and (max-device-width: 800px)
 {
     .page-section-dev{
         display: none;
@@ -643,14 +643,14 @@ ul.social-buttons li a:hover {
 
 }
 
-@media only screen and (max-device-width: 900px)
+@media only screen and (max-device-width: 800px)
 {
     .split-section{
         display: none;
     }
 }
 
-@media only screen and (max-device-width: 900px)
+@media only screen and (max-device-width: 800px)
 {
 
     .section-restaurante{
