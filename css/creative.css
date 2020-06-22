@@ -9695,6 +9695,7 @@ header.masthead {
 .team-member {
   margin-bottom: 50px;
   text-align: center;
+  display: block;
 }
 
 .team-member img {
