@@ -52,13 +52,6 @@ header.masthead {
 }
 
 
-.split-section .screen:nth-child(1) {
-    background: url('../img/split-screen/computador.jpg');
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-}
-
 .split-section .screen:nth-child(2) {
     background-repeat: no-repeat;
     background-position: center;
@@ -656,6 +649,7 @@ ul.social-buttons li a:hover {
 
 .page-section-dev {
     padding: 100px 0;
+    overflow-x: hidden;
   }
 
   .page-dev-mobile{
@@ -836,6 +830,37 @@ ul.social-buttons li a:hover {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+}
+
+
+.img-dev{
+    padding-top: 15rem;
+    padding-bottom: 10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(144, 6, 238, 0.6) 100%), url('../img/util/devs-section.png');
+    clip-path: polygon(0 0, 100% 0, 100% 60%, 50% 80%, 0 60%);
+    z-index: -1;
+
+}
+
+.container-dev-box{
+    display: flex;
+    justify-content: center;
+    z-index:auto;
+}
+.dev-box{
+    width: 270px;
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+    top: 0;
 }
 
 
