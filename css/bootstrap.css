@@ -5947,7 +5947,7 @@ a.close.disabled {
 }
 
 .carousel-inner::after {
-  display: block;
+  display: flex;
   clear: both;
   content: "";
 }

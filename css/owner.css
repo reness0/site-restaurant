@@ -836,9 +836,12 @@ ul.social-buttons li a:hover {
     padding-top: 3rem;
     padding-bottom: 10rem;
     background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 15%, rgba(144, 6, 238, 0.6) 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 60%, 50% 80%, 0 60%);
+	clip-path: polygon(0 0, 100% 0, 100% 60%, 50% 80%, 0 60%);
+	justify-content: center;
 
 }
+
+
 
 .img-dev h1{
 	font-weight: 800;
