@@ -1,4 +1,4 @@
-header.masthead {
+.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 72px);
     background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/util/bg-masthead.jpg");
@@ -415,7 +415,6 @@ ul.social-buttons li a:hover {
 }
 
 .container-card .cardBx .contentBox .size h3{
-
     color: #fff;
     font-weight: 300;
     font-size: 14px;
@@ -710,14 +709,14 @@ ul.social-buttons li a:hover {
     margin-top: 20px;
     margin-bottom: 50px;
     margin-right: 10px;
-    text-align: center;
-    
+	text-align: center;
+    align-items: center;
   }
   
   .team-member img {
     width: 300px;
     height: 300px;
-    border: 7px solid rgba(0, 0, 0, 0.1);
+    border: 4px solid rgba(255, 255, 255, 0.9);
   }
   
   .team-member h4 {
@@ -834,33 +833,50 @@ ul.social-buttons li a:hover {
 
 
 .img-dev{
-    padding-top: 15rem;
+    padding-top: 3rem;
     padding-bottom: 10rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.2) 0%, rgba(144, 6, 238, 0.6) 100%), url('../img/util/devs-section.png');
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 15%, rgba(144, 6, 238, 0.6) 100%);
     clip-path: polygon(0 0, 100% 0, 100% 60%, 50% 80%, 0 60%);
-    z-index: -1;
 
+}
+
+.img-dev h1{
+	font-weight: 800;
+	font-size: 2em;
+	color: #fff;
+	text-align: center;
+	margin: 10px;
 }
 
 .container-dev-box{
     display: flex;
-    justify-content: center;
-    z-index:auto;
+	justify-content: center;
+	
 }
 .dev-box{
-    width: 270px;
+    width: 60%;
     padding: 40px;
-    background: #fff;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     border-radius: 4px;
     box-sizing: border-box;
     overflow: hidden;
     text-align: center;
-    top: 0;
+	top: 0;
+}
+
+.dev-box h2{
+	font-weight: 800;
+	font-size: 2em;
+	color: #fff;
+}
+
+.dev-box h3{
+	color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right:10px;
 }
 
 
